@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:useDefaultMargins="true"
+    android:alignmentMode="alignBounds"
+    android:columnOrderPreserved="false"
+    android:columnCount="8">
+    <oak.TextViewWithFont
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="8"
+        android:text="Title"/>
+    <EditText
+        android:id="@+id/ET_note_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Defend world."
+        android:layout_columnSpan="7"/>
+    <Button
+        android:id="@+id/BTN_note_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="IC"/>
+    <oak.TextViewWithFont
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="8"
+        android:text="Text"/>
+    <EditText
+        android:id="@+id/ET_note_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="8"
+        android:hint="Stop Godzilla, end world hunger, defend against robot invasion, and pick up eggs on the way home."/>
+    <CheckBox
+        android:id="@+id/CB_note_sticky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:text="Sticky"/>
+    <CheckBox
+        android:id="@+id/CB_note_reminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:text="Reminder"/>
+    <Button
+        android:id="@+id/BTN_create_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="8"
+        android:text="noteify me!"/>
+</GridLayout>
